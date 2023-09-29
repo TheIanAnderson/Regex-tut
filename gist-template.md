@@ -33,3 +33,45 @@ The protocol component specifies the communication protocol (e.g., http, https) 
 ```regex
 ^(https?|ftp)://
 ```
+
+## Port
+
+The port component ensures that a valid port number follows a colon :. It is optional.
+
+regex
+Copy code
+(:\d+)?
+
+## Path
+
+The path component validates the path to the resource on the server. It can include slashes and alphanumeric characters.
+
+regex
+Copy code
+(/[a-zA-Z0-9.-/]\*)?
+Query
+The query component validates the query string, often used for passing parameters to the server. It starts with a question mark ? and can include various characters.
+
+regex
+Copy code
+(\?[a-zA-Z0-9.-=&]\*)?
+Fragment
+The fragment component, often used for linking to a specific section of a web page, starts with a hash # and can include alphanumeric characters.
+
+regex
+Copy code
+(#\w\*)?
+Questions
+GitHub username: theiananderson
+GitHub profile: https://github.com/theiananderson
+Send any questions about the project to: ianandersonvideo@gmail.com
+License
+MIT License
+
+Copyright (c) 2023 Ian
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.

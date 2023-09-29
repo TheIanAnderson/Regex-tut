@@ -14,7 +14,7 @@ A comprehensive tutorial explaining the functionality of a regular expression fo
 
 ## Preview
 
-[Link to the tutorial on GitHub Gist](https://gist.github.com/theiananderson/)
+[Link to the tutorial on GitHub Gist](https://gist.github.com/TheIanAnderson/647d69152b56bd3290e6f4d5a2a02449.js")
 
 ## Questions
 

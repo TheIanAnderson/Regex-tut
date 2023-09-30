@@ -14,7 +14,7 @@ A comprehensive tutorial explaining the functionality of a regular expression fo
 
 ## Preview
 
-[Link to the tutorial on GitHub Gist](https://github.com/TheIanAnderson/Regex-tut/blob/main/gist-template.md)
+[Link to the tutorial on GitHub Gist]("https://github.com/TheIanAnderson/Regex-tut/blob/main/gist-template.md")
 
 ## Questions
 

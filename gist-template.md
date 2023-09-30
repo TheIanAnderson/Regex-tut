@@ -38,30 +38,28 @@ The protocol component specifies the communication protocol (e.g., http, https) 
 
 The port component ensures that a valid port number follows a colon :. It is optional.
 
-regex
-Copy code
+
 (:\d+)?
 
 ## Path
 
 The path component validates the path to the resource on the server. It can include slashes and alphanumeric characters.
 
-regex
-Copy code
 (/[a-zA-Z0-9.-/]\*)?
-Query
+
+## Query
 The query component validates the query string, often used for passing parameters to the server. It starts with a question mark ? and can include various characters.
 
-regex
-Copy code
+
 (\?[a-zA-Z0-9.-=&]\*)?
-Fragment
+
+## Fragment
 The fragment component, often used for linking to a specific section of a web page, starts with a hash # and can include alphanumeric characters.
 
-regex
-Copy code
+
 (#\w\*)?
-Questions
+
+## Questions
 GitHub username: theiananderson
 GitHub profile: https://github.com/theiananderson
 Send any questions about the project to: ianandersonvideo@gmail.com
